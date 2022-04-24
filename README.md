@@ -10,7 +10,7 @@ make
 ```
 to create binary file. Then run this file together with the following arguments:
 ```bash 
-./ipk-sniffer [-i \| --interface ==interface==] {-p *port*} {[--tcp\|-t] [--udp\|-u] [--arp] [--icmp] } { -n *num*}
+./ipk-sniffer [-i | --interface interface] {-p port} {[--tcp | -t] [--udp | -u] [--arp] [--icmp] } { -n num}
 ```
 The arguments' meaning is as followed:
 - `-i | --interface *interface*` - interface that the program will be listening to; if there is none, it prints list of active interfaces
