@@ -152,7 +152,7 @@ int main(int argc, char *argv[]) {
     }
 
     if (isInterface == 0) {
-        printf("ERROR no interface is present");
+        printf("ERROR no interface is present\n");
         return -1;
     }
 
